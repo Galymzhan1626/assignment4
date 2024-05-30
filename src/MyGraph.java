@@ -50,4 +50,16 @@ public class MyGraph {
             System.out.println();
         }
     }
+
+    public int getVertexCount() {
+        return vertexCount;
+    }
+
+    public String[] getVertices() {
+        return vertices;
+    }
+
+    public Edge[] getEdges() {
+        return edges;
+    }
 }
